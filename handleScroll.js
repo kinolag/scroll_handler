@@ -34,7 +34,7 @@ const handleProgressInUI = () => {
 const handleScroll = (updateUI) => {
   const { scrollHeight, clientHeight } = document.documentElement;
   const scrolledY = window.scrollY;
-  /* scrolledY : diff = x : 100 */
+  /* scrolledY : diff = offset : 100 */
   offset = (scrolledY / (scrollHeight - clientHeight)) * 100;
 
   const threshold = Object.keys(sent).find((n) => !sent[n]);
