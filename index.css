@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #eee;
+  width: 100%;
+  height: 18px;
+  z-index: 2;
+  opacity: 80%;
+  position: fixed;
+  top: 0px;
+}
+
+#progressBar {
+  position: fixed;
+  top: 0px;
+  height: 4px;
+  width: 0;
+  background-color: red;
+}
+
+#progressLabel {
+  position: fixed;
+  top: 4px;
+  text-align: right;
+  font-size: 12px;
+  color: red;
+}
+
+#infoElement {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  color: slategrey;
+}
