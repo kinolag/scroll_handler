@@ -6,7 +6,7 @@
 
 - Dispatch a custom event when an offset threshold is reached.
 
-- Display the scroll status in the UI (optionally).
+- Display the scroll status in the UI (conditionally).
 
 ## JS functions
 
