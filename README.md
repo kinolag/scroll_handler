@@ -19,3 +19,7 @@ All functionality is implemented with plain JavaScript, HTML and CSS.
 `handleProgressInUI` is a function (called conditionally) used to display information about the scroll status in the document.
 
 `generateText` is just a function used to populate the demo html file with enough text content to enable vertical scroll.
+
+## How to use it
+
+Clone the repo and open the index.html file in a browser with JS enabled.
