@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Scroll Handler" />
+    <meta charset="utf-8" />
+    <title>Scroll Handler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script>
+      window.onbeforeunload = () => window.scrollTo(0, 0);
+    </script>
+  </head>
+  <body>
+    <header>
+      <div id="progressBar"></div>
+      <div id="progressLabel"></div>
+    </header>
+    <div id="infoElement"></div>
+  </body>
+  <script src="./generateText.js"></script>
+  <script src="./handleScroll.js"></script>
+</html>
