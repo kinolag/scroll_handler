@@ -1,6 +1,6 @@
 # scroll_handler
 
-## Handle scroll events with plain JS
+## Handle scroll events and create custom ones with plain JS
 
 - Keep track of vertical scrolling in your html files.
 
