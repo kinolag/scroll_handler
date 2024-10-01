@@ -4,7 +4,7 @@ const infoElement = document.getElementById("infoElement");
 const progressBar = document.getElementById("progressBar");
 const progressLabel = document.getElementById("progressLabel");
 
-const thresholds = [25, 50, 100];
+const thresholds = [25, 50, 75, 100];
 const sent = {};
 thresholds.forEach((t) => (sent[t] = false));
 
